@@ -1,0 +1,12 @@
+80
+    server: localhost
+    paths:
+        /donut => localhost:8888
+
+443
+    server: localhost
+    paths:
+        / => localhost:444
+    ssl:
+        certificate: sample.pem
+        certificate_key: sample.rsa
